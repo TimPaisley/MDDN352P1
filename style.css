@@ -1,0 +1,119 @@
+/* ===== FONTS & STYLES ===== */
+
+body h1 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+body h2 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+
+	text-align: justify;
+}
+
+.marketing .col-lg-4 {
+	text-align: center;
+}
+
+.marketing h2 {
+	font-family: "Roboto Slab", serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+
+	text-align: justify;
+}
+
+.marketing .col-lg-4 p a {
+	text-align: center;
+}
+
+.serif {
+	font-family: "Roboto Slab", serif;
+}
+
+.light {
+	font-weight: 300;
+}
+
+/* ===== MASTHEAD & CAROUSEL ===== */
+
+#myCarousel {
+	display: flex;
+}
+
+#title-bar {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	position: absolute;
+	top: 25%;
+	height: 50%;
+	width: 100%;
+	padding-left: 20%;
+
+	background-color: #311b92;
+}
+
+#title-bar h1 {
+	font-family: "Roboto Slab", serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 4vw;
+
+	color: #FFFFFF;
+	margin: 0;
+}
+
+#title-bar h2 {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2vw;
+
+	color: #FFFFFF;
+	margin: 0;
+}
+
+#logo {
+	position: absolute;
+	width: 19%;
+	left: 0%;
+	top: 0px;
+}
+
+/* ===== FEATURE PINS ===== */
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* ===== CONTENT ===== */
+
+.media-table {
+	width: 100%;
+	text-align: center;
+}
+
+/* ===== FOOTER ===== */
+
+footer p {
+	text-align: center;
+}

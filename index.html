@@ -1,9 +1,225 @@
 <html>
-  <head>
-    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
-    <title>MDDN352 | Tim Paisley</title>
-  </head>
-  <body>
-    <div>Hello World!</div>
-  </body>
+	<head>
+		<title>Culture Companion | Te Papa</title>
+
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<!-- STYLESHEET -->
+    	<link rel="stylesheet" type="text/css" href="style.css">
+
+    	<!-- BOOTSTRAP CDN -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- GOOGLE FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic|Roboto+Condensed:400,300italic,300,700,400italic|Roboto+Mono|Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	      <div id="title-bar">
+	      	<img src="images/logo.jpg" alt="Te Papa Logo" id="logo">
+			<h1>Culture Companion</h1>
+			<h1>&nbsp</h1><!-- Blank Space for Even Scaling -->
+			<h2>Te Papa Culture Companion is your all-in-one <br/>tour guide as you dive into culture, history and art!</h2>
+		  </div>
+
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/home-long.png" alt="Mock-up of Home Screen" />
+		    </div>
+
+		    <div class="item">
+		      <img src="images/gallipoli-long.png" alt="Mock-up of Exhibit Screen" />
+		    </div>
+
+		    <div class="item">
+		      <img src="images/profile-long.png" alt="Mock-up of Profile Screen" />
+		    </div>
+		  </div>
+		</div>
+
+	    <div class="container marketing">
+	      <div class="row">
+	        <div class="col-lg-4">
+	          <img class="img-circle" src="images/easy-pin.png" alt="Generic placeholder image" width="140" height="140">
+	          <h2>Easy Peasy!</h2>
+	          <p>Use your device's NFC capabilities, scan QR codes with its camera, or input a unique code to instantly get more information about a display or an item of interest.</p>
+	          <p><center><a class="btn btn-default" href="#easy" role="button">About NFC & QR Codes &raquo;</a></center></p>
+	        </div><!-- /.col-lg-4 -->
+	        <div class="col-lg-4">
+	          <img class="img-circle" src="images/deep-pin.png" alt="Generic placeholder image" width="140" height="140">
+	          <h2>Dive Deeper!</h2>
+	          <p>Get more information about each item, including videos, audio recordings and other online information sources. We'll even suggest other things you might want to check out in the exhibit!</p>
+	          <p><center><a class="btn btn-default" href="#dive" role="button">About Digital Media &raquo;</a></center></p>
+	        </div><!-- /.col-lg-4 -->
+	        <div class="col-lg-4">
+	          <img class="img-circle" src="images/points-pin.png" alt="Generic placeholder image" width="140" height="140">
+	          <h2>Earn Points!</h2>
+	          <p>Get rewards for exploring the online portion of our exhibit, taking quizzes and filling in surveys. Use your reward points to unlock exclusive wallpapers and other digital content!</p>
+	          <p><center><a class="btn btn-default" href="#points" role="button">About Reward Points &raquo;</a></center></p>
+	        </div>
+	      </div>
+      	</div>
+
+      	<div class="container">
+      		<h2>So what's all of this about, then?</h2>
+      		<p class="lead">Glad you asked! Te Papa Culture Companion is a 'Web-based Companion App' for our Te Papa exhibits. In other words, it's a website that can accompany you on your smart phone, tablet, or laptop while you look around Te Papa, providing extra information, videos, audio snippets and additional material to complete your Te Papa experience. It can even make suggestions on what you might want to check out next!</p>
+
+      		<h2>How does it work?</h2>
+      		<p class="lead">Te Papa Culture Companion uses a range of different technologies to make it as easy as possible for you to get more information about each part of an exhibition. You'll find NFC tags, QR codes, and unique ID codes scattered around Te Papa which will take you to each different section of the web site.</p>
+      	</div>
+
+      	<!-- EASY PEASY -->
+	    <div class="container" id="easy">
+	      <hr class="featurette-divider">
+
+	      <div class="row featurette">
+	        <div class="col-md-7">
+	          <h2 class="featurette-heading">Convenience with a Tap! <span class="text-muted">How to use NFC.</span></h2>
+	          <p class="lead">NFC stands for Near-Field Communication, and it allows a small amount of data to be transferred between an NFC chip <i>(which you'll find scattered around each exhibit)</i> and a device <i>(such as a smart phone)</i>. <a href="https://en.wikipedia.org/wiki/List_of_NFC-enabled_mobile_devices" target="_blank">Click here</a> to check if your device is NFC compatible.</p>
+	        </div>
+	        <div class="col-md-5">
+	          <img class="featurette-image img-responsive center-block" src="images/feature-nfc.jpg" alt="Activating NFC on a Phone">
+	        </div>
+	      </div>
+
+	      <hr class="featurette-divider">
+
+	      <div class="row featurette">
+	        <div class="col-md-7 col-md-push-5">
+	          <h2 class="featurette-heading">Don't have NFC? <span class="text-muted">Use QR codes!</span></h2>
+	          <p class="lead">QR Codes are like barcodes for your phone. You can use applications on your phone to scan QR codes, each of which is unique and each of which will take you to a specified web address. If you can't use the NFC tags in our exhibits, scan the QR code instead!</p>
+	        </div>
+	        <div class="col-md-5 col-md-pull-7">
+	          <img class="featurette-image img-responsive center-block" src="images/feature-qr.jpg" alt="Scanning a QR Code">
+	        </div>
+	      </div>
+
+	      <hr class="featurette-divider">
+
+	      <div class="row featurette">
+	        <div class="col-md-7">
+	          <h2 class="featurette-heading">Can't use QR codes either? <span class="text-muted">Use unique IDs!</span></h2>
+	          <p class="lead">NFC tags and QR codes not working? Maybe you'd just prefer not to use them? No worries! We've also set up unique codes for our displays, each of which you can enter in on this site and they'll link you to the item you're after!</p>
+	        </div>
+	        <div class="col-md-5">
+	          <img class="featurette-image img-responsive center-block" src="images/feature-code.jpg" alt="Typing in a Unique ID">
+	        </div>
+	      </div>
+
+	      <hr class="featurette-divider">
+
+	      <div class="row featurette" id="test">
+	        <div class="col-md-7 col-md-push-5">
+	          <h2 class="featurette-heading">Want to try it out? <span class="text-muted">Test NFC and QR here!</span></h2>
+	          <p class="lead">To demonstrate how NFC and QR codes can work, we've set up a simulation on this page. Tag an NFC chip to open <a href="#test"><i>this URL</i></a> or use a QR code reader (we recommend <a href="https://www.scan.me/download/" target="_blank">this one</a>) to scan the QR code next to this block of text. You'll end up right... here! It's really that easy!</p>
+	        </div>
+	        <div class="col-md-5 col-md-pull-7">
+	          <img class="featurette-image img-responsive center-block" src="images/test-qr.jpg" alt="Scanning a QR Code">
+	        </div>
+	      </div>
+
+	      <hr class="featurette-divider">
+	    </div>
+
+	    <!-- DIVE DEEPER -->
+	    <div class="container" id="dive">
+      		<h2>But why should you bother?</h2>
+      		<p class="lead">Have you ever found a display in a museum that really gets you thinking? Something that interests you, something that you want to know more about? When we put together an exhibit, we selected some of the most important parts to show you, but there's so much more beneath the surface which we can't possibly fit! More stories, pictures, audio recordings and videos than you can sink your teeth into, and all in one easy-to-use online repository, ready at your fingertips for you to dive in.</p>
+
+      		<center><div class="col-md-3">
+      			<h2 class="text-muted"><span class="glyphicon glyphicon-film" aria-hidden="true"></span> Videos</h2>
+      		</div>
+
+      		<div class="col-md-3">
+      			<h2 class="text-muted"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> Audio</h2>
+      		</div>
+
+      		<div class="col-md-3">
+      			<h2 class="text-muted"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Photos</h2>
+      		</div>
+
+      		<div class="col-md-3">
+      			<h2 class="text-muted"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Maps</h2>
+      		</div></center>
+
+      		<h2>&nbsp;</h2>
+      		<h2>How can we make your experience more personal?</h2>
+      		<p class="lead">When you decide to sign up for a Culture Companion account, one of the things that we recommend you do first is to take a short survey. The survey will ask you a few easy questions, such as how old you are and what you're interests are. This information will be used not only to help us make your experience better in the future, but also to curate your <i>Recommended</i> section - when you're ready to move onto something else, we can provide some handy suggestions on what we think you might like.</p>
+
+      		<hr>
+      	</div>
+
+      	<!-- EARN POINTS -->
+      	<div class="container" id="points">
+      		<div class="row featurette">
+      			<div class="col-md-9">
+	      			<h2>How do you earn points?</h2>
+	      			<p class="lead">Every time you tag onto a display article using NFC, QR codes or its unique ID, we'll give you some points! Your points will be kept on your account, and you'll be able to track your progress through our exhibits on your <i>Profile</i> page. Tag all displays in an exhibit to get 100% completion, then prove you're an expert on the topic by trying our exhibit quizzes to earn even more points!</p>
+
+	      			<h2>What do the points do?</h2>
+      				<p class="lead">We understand that kids can sometimes need a bit of persuation when it comes to learning, and with Culture Companion we award points for doing just that! Completing quizzes in each exhibit will unlock bonus digital content such as wallpapers and printable crafts. More points will score you small discounts in the gift store and for some exhibits, there may even be small goodie bags waiting in the gift shop for those who've done well.</p>
+	      		</div>
+	      		<div class="col-md-3">
+					<img class="featurette-image img-responsive center-block" src="images/exhibit-tracking.jpg" alt="Exhibit Tracking">
+	      		</div>
+      		</div>
+
+      		<hr>
+      	</div>
+
+      	<div class="container">
+      		<h2>What are you waiting for?</h2>
+      		<p class="lead">That's all you need to know for now! If you like the sound of an easy-to-use online tour guide to expand and personalise your experience at Te Papa, sign up for a completely free account now!</p>
+      	</div>
+
+      	<!-- CONCLUSION -->
+      	<div class="container">
+      		
+      	</div>
+
+      	<!-- FOOTER -->
+      	<div class="container">
+      		<hr>
+
+      		<footer>
+	    		<p>Tim Paisley, 2016</p>
+	    	</footer>
+	    </div>
+
+		<!-- jQuery -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+	    <!-- Custom JavaScript -->
+	    <script language="JavaScript">
+	    		// Activate Carousel
+				$(document).ready(function(){
+				    $('#myCarousel').carousel({interval: 5000, pause: "false"});
+				});
+
+				// On Carousel is Changing
+				$('.carousel').on('slide.bs.carousel',function(e){
+					var slide = $(e.relatedTarget).index();
+					console.log(slide);
+
+					if (slide == 0) { // Home
+						$('#title-bar').animate({
+							backgroundColor: "#311b92"
+						}, 1000);
+					} else if (slide == 1) { // Gallipoli
+						$('#title-bar').animate({
+							backgroundColor: "#b71c1c"
+						}, 1000);
+					} else { // Profile
+						$('#title-bar').animate({
+							backgroundColor: "#1b5e20"
+						}, 1000);
+					}
+				});
+	    </script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</body>
 </html>
